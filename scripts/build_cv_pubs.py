@@ -466,26 +466,17 @@ def main():
 
     LIB_CODE = "p11_8_nYTjuAD1LbKfZC5g"
 
-    name = "Crenshaw J. F."
+    name = "Sherwin B.C."
     name_variations = [
-        "Crenshaw, John Franklin",
-        "Crenshaw, John F.",
-        "Crenshaw, J. F.",
-        "Crenshaw, JF",
-        "Crenshaw J. F.",
-        "Crenshaw JF",
-        "John Franklin Crenshaw",
-        "John F. Crenshaw",
-        "J. F. Crenshaw",
-        "JF Crenshaw",
-        "Crenshaw, John",
-        "Crenshaw, J.",
-        "Crenshaw, J",
-        "Crenshaw J.",
-        "Crenshaw J",
-        "John Crenshaw",
-        "J. Crenshaw",
-        "J Crenshaw",
+        "Sherwin, Ben C.",
+        "Sherwin, Ben",
+        "Sherwin Ben",
+        "Ben Sherwin",
+        "Ben C. Sherwin",
+        "B.C. Sherwin",
+        "Ben C. Sherwin",
+        "Sherwin B.C.",
+        "B.C. Sherwin",
     ]
 
     primary_config = {
@@ -496,13 +487,7 @@ def main():
     secondary_config = {
         "title": "Co-Author with Major Contributions:",
         "intro": None,
-        "overrides": [
-            "10.71929/RUBIN/2571480",  # DP1 photo-z technote
-            "10.48550/arXiv.2505.02928",  # RAIL paper
-            "10.48550/arXiv.2603.23786",  # DP1 paper
-            "10.1093/mnras/stad302",  # SCOTCH paper (Lokken)
-            "10.48550/arXiv.2601.10797",  # Crafford paper
-        ],
+        "overrides": None,
     }
     tertiary_config = {
         "title": "Other Co-Author Papers:",
